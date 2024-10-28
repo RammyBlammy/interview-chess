@@ -14,6 +14,7 @@ try {
 
     $board->dump();
 } catch (\Exception $e) {
+    $board->dump();
     echo $e->getMessage() . "\n";
     exit(1);
 }
